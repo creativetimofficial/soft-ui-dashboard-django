@@ -234,7 +234,7 @@ At present, we officially aim to support the last two versions of the following 
 - Download Page: <https://www.creative-tim.com/product/soft-ui-dashboard-django>
 - Documentation: <https://www.creative-tim.com/learning-lab/bootstrap/build-tools-free/soft-ui-dashboard>
 - License Agreement: <https://www.creative-tim.com/license>
-- Support: <https://www.creative-tim.com/contact-us>
+- Support: <https://www.creative-tim.com/support>
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/soft-ui-dashboard-django/issues)
 
 <br />
