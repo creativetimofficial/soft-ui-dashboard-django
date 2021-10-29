@@ -82,7 +82,7 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 <br />
 
 ## Documentation
-The documentation for the **Soft UI Dashboard Django** is hosted at our [website](https://demos.creative-tim.com/soft-ui-dashboard-django/docs/getting-started/getting-started-django.html).
+The documentation for the **Soft UI Dashboard Django** is hosted at our [website](https://www.creative-tim.com/learning-lab/bootstrap/build-tools-free/soft-ui-dashboard).
 
 <br />
 
@@ -232,7 +232,7 @@ At present, we officially aim to support the last two versions of the following 
 
 - Demo: <https://www.creative-tim.com/live/soft-ui-dashboard-django>
 - Download Page: <https://www.creative-tim.com/product/soft-ui-dashboard-django>
-- Documentation: <https://demos.creative-tim.com/soft-ui-dashboard-django/docs/1.0/getting-started/getting-started-django.html>
+- Documentation: <https://www.creative-tim.com/learning-lab/bootstrap/build-tools-free/soft-ui-dashboard>
 - License Agreement: <https://www.creative-tim.com/license>
 - Support: <https://www.creative-tim.com/contact-us>
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/soft-ui-dashboard-django/issues)
