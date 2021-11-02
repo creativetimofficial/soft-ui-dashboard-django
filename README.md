@@ -23,6 +23,7 @@ Open-source **[Django Template](https://www.creative-tim.com/templates/django)**
 
 ## Table of Contents
 
+* [Versions](#versions)
 * [Demo](#demo)
 * [Quick Start](#quick-start)
 * [Documentation](#documentation)
@@ -33,6 +34,16 @@ Open-source **[Django Template](https://www.creative-tim.com/templates/django)**
 * [Technical Support or Questions](#technical-support-or-questions)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
+
+<br />
+
+## Versions
+
+[<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud)
+
+| HTML |
+| --- |
+| [![Soft UI Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/487/thumb/opt_sdp_thumbnail.jpg)](http://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud)
 
 <br />
 
