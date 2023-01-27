@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.1] 2023-01-27
+### Changes
+
+- Updated Codebase
+- Latest **[Django](https://appseed.us/admin-dashboards/django/)** Version
+- Theme-able UI (no more hardcoded inside the project)
+- Theme: [Django Admin Soft](https://github.com/app-generator/django-admin-soft-dashboard)
+  - Usable via `PIP`
+- CI/CD included via `Render`
+
 ## [1.0.0] 2021-10-28
 ### Initial Release
 
