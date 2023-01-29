@@ -99,38 +99,88 @@ The documentation for the **Soft UI Dashboard Django** is hosted at our [website
 
 <br />
 
-## File Structure
+## Codebase structure
 
-Within the download you'll find the following directories and files:
+The project is coded using a simple and intuitive structure presented below:
 
 ```bash
 < PROJECT ROOT >
    |
-   |-- core/                   # Implements app configuration
-   |    |-- settings.py        # Defines Global Settings
-   |    |-- wsgi.py            # Start the app in production
-   |    |-- urls.py            # Define URLs served by all apps/nodes
+   |-- core/                            
+   |    |-- settings.py                  # Project Configuration  
+   |    |-- urls.py                      # Project Routing
    |
    |-- home/
-   |    |
-   |    |-- views.py           # Serve HTML pages for authenticated users
-   |    |-- urls.py            # Define some super simple routes  
+   |    |-- views.py                     # APP Views 
+   |    |-- urls.py                      # APP Routing
+   |    |-- models.py                    # APP Models 
+   |    |-- tests.py                     # Tests  
+   |    |-- templates/                   # Theme Customisation 
+   |         |-- includes                # 
+   |              |-- custom-footer.py   # Custom Footer      
+   |     
+   |-- requirements.txt                  # Project Dependencies
    |
-   |
-   |-- manage.py               # Start the app - Django default start script
-   |-- requirements.txt        # Development modules - SQLite storage
+   |-- env.sample                        # ENV Configuration (default values)
+   |-- manage.py                         # Start the app - Django default start script
    |
    |-- ************************************************************************
 ```
 
 <br />
 
-> The bootstrap flow
+## How to Customize 
 
-- Django bootstrapper `manage.py` uses `core/settings.py` as the main configuration file
-- `core/settings.py` loads the app magic from `.env` file
-- Redirect the guest users to Login page
-- Unlock the pages served by *app* node for authenticated users
+When a template file is loaded in the controller, `Django` scans all template directories starting from the ones defined by the user, and returns the first match or an error in case the template is not found. 
+The theme used to style this starter provides the following files: 
+
+```bash
+< LIBRARY_ROOT >                      # This exists in ENV: LIB/admin_soft
+   |
+   |-- templates/                     # Root Templates Folder 
+   |    |          
+   |    |-- accounts/       
+   |    |    |-- login.html           # Sign IN Page
+   |    |    |-- register.html        # Sign UP Page
+   |    |
+   |    |-- includes/       
+   |    |    |-- footer.html          # Footer component
+   |    |    |-- sidebar.html         # Sidebar component
+   |    |    |-- navigation.html      # Navigation Bar
+   |    |    |-- scripts.html         # Scripts Component
+   |    |
+   |    |-- layouts/       
+   |    |    |-- base.html            # Masterpage
+   |    |    |-- base-fullscreen.html # Masterpage for Auth Pages
+   |    |
+   |    |-- pages/       
+   |         |-- index.html           # Dashboard page
+   |         |-- profile.html         # Settings  Page
+   |         |-- *.html               # All other pages
+   |    
+   |-- ************************************************************************
+```
+
+When the project requires customization, we need to copy the original file that needs an update (from the virtual environment) and place it in the template folder using the same path. 
+
+> For instance, if we want to **customize the footer.html** these are the steps:
+
+- ✅ `Step 1`: create the `templates` DIRECTORY inside the `home` app
+- ✅ `Step 2`: configure the project to use this new template directory
+  - `core/settings.py` TEMPLATES section
+- ✅ `Step 3`: copy the `footer.html` from the original location (inside your ENV) and save it to the `home/templates` DIR
+  - Source PATH: `<YOUR_ENV>/LIB/admin_soft/includes/footer.html`
+  - Destination PATH: `<PROJECT_ROOT>home/templates/includes/footer.html`
+
+> To speed up all these steps, the **codebase is already configured** (`Steps 1, and 2`) and a `custom footer` can be found at this location:
+
+`home/templates/includes/custom_footer.html` 
+
+By default, this file is unused because the `theme` expects `footer.html` (without the `custom_` prefix). 
+
+In order to use it, simply rename it to `footer.html`. Like this, the default version shipped in the library is ignored by Django. 
+
+In a similar way, all other files and components can be customized easily.
 
 <br />
 
