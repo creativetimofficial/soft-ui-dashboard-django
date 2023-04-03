@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.3] 2023-04-03
+### Changes
+
+- Bump Design: [Django Admin Soft](https://github.com/app-generator/django-admin-soft-dashboard) `v1.0.11`
+
 ## [1.0.2] 2023-01-29
 ### Changes
 
