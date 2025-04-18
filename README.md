@@ -213,6 +213,7 @@ This design is a pixel-perfect [Bootstrap 5](https://www.admin-dashboards.com/bo
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
 - Docker 
 - CI/CD integration for [Render](https://app-generator.dev/docs/deployment/render/index.html) 
+- [Vite](https://app-generator.dev/docs/technologies/vite/index.html) for assets management 
 
 <br />
 
