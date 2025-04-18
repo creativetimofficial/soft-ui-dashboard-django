@@ -197,7 +197,7 @@ Being a product that is actively supported and improved, feel free to contact us
 
 ## [PRO Version](https://www.creative-tim.com/product/soft-ui-dashboard-pro-django)   
 
-This design is a pixel-perfect [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Dashboard with a fresh, new design concept. `Soft UI Dashboard PRO` is built with over 300 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining.
+This design is a pixel-perfect [Bootstrap Template](https://app-generator.dev/docs/templates/bootstrap.html) with a fresh, new design concept. `Soft UI Dashboard PRO` is built with over 300 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining.
 
 > Features: 
 
